@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="action" load_steps=2 format=3 uid="uid://boleb3qkbb8fa"]
+
+[ext_resource type="Script" path="res://actions/actions.gd" id="1_3e2io"]
+
+[resource]
+script = ExtResource("1_3e2io")
+name = "Craft bone shovel"
+description = "Create a shovel using the bones. Speeds up time taken to dig up graves vastly."
+queue_description = "Craft"
+working_description = "Crafting a bone shovel"
+recall = "bone_shovel"
+cost = {
+"bones": 25
+}
+time = 20.0

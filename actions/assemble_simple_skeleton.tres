@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="action" load_steps=2 format=3 uid="uid://ciqsqkn378crh"]
+
+[ext_resource type="Script" path="res://actions/actions.gd" id="1_jeqjp"]
+
+[resource]
+script = ExtResource("1_jeqjp")
+name = "Assemble simple skeleton"
+description = "Arrange bones in preparation for a resurrection ritual."
+queue_description = "Assemble"
+working_description = "Assembling a simple skeleton"
+recall = "assemble_skel_s"
+cost = {
+"bones": 20,
+"skull": 1
+}
+time = 20.0
+skill = ""

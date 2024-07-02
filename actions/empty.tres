@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="action" load_steps=2 format=3 uid="uid://dds3vttiglstp"]
+
+[ext_resource type="Script" path="res://actions/actions.gd" id="1_xgsv5"]
+
+[resource]
+script = ExtResource("1_xgsv5")
+name = ""
+description = ""
+queue_description = "+"
+working_description = "Idling"
+recall = ""
+cost = {}
+time = 0.0

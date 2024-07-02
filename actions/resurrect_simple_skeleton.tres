@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="Action" load_steps=2 format=3 uid="uid://d31s83jljh1ro"]
+
+[ext_resource type="Script" path="res://actions/actions.gd" id="1_5wwuf"]
+
+[resource]
+script = ExtResource("1_5wwuf")
+name = "Resurrect simple skeleton"
+description = "Raise a simple skeleton to do minor chores."
+queue_description = "Resurrect"
+working_description = "Resurrecting a simple skeleton"
+recall = "res_skel_s"
+cost = {
+"skel_s": 1
+}
+time = 30.0
+skill = ""

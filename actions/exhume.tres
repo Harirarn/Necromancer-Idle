@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="action" load_steps=2 format=3 uid="uid://bgqjv4hs71ie7"]
+
+[ext_resource type="Script" path="res://actions/actions.gd" id="1_qr1we"]
+
+[resource]
+script = ExtResource("1_qr1we")
+name = "Exhume"
+description = "Exhume the remains from a grave. Usually yields bones."
+queue_description = "Exhume"
+working_description = "Exhuming a grave"
+recall = "dig"
+cost = {
+"grave": 1
+}
+time = 10.0
+skill = "shovel"
